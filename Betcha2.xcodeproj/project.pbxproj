@@ -14,6 +14,11 @@
 		2EB27A951EA807290074C545 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EB27A931EA807290074C545 /* LaunchScreen.storyboard */; };
 		2EB27AA01EA8072A0074C545 /* Betcha2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB27A9F1EA8072A0074C545 /* Betcha2Tests.swift */; };
 		2EB27AAB1EA8072A0074C545 /* Betcha2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB27AAA1EA8072A0074C545 /* Betcha2UITests.swift */; };
+		2EDE0CD01EC97D6B00C3BD88 /* ActivityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EDE0CCF1EC97D6B00C3BD88 /* ActivityTableViewCell.swift */; };
+		2EDE0CD41ECA249F00C3BD88 /* BetDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EDE0CD31ECA249F00C3BD88 /* BetDetailsViewController.swift */; };
+		2EDE0CD61ECA266500C3BD88 /* Bet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EDE0CD51ECA266500C3BD88 /* Bet.swift */; };
+		2EDE0CD81ECA2B9C00C3BD88 /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EDE0CD71ECA2B9C00C3BD88 /* SampleData.swift */; };
+		2EDE0CDA1ECA2DCE00C3BD88 /* BetsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EDE0CD91ECA2DCE00C3BD88 /* BetsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		2EB27AA61EA8072A0074C545 /* Betcha2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Betcha2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EB27AAA1EA8072A0074C545 /* Betcha2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Betcha2UITests.swift; sourceTree = "<group>"; };
 		2EB27AAC1EA8072A0074C545 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EDE0CCF1EC97D6B00C3BD88 /* ActivityTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityTableViewCell.swift; sourceTree = "<group>"; };
+		2EDE0CD31ECA249F00C3BD88 /* BetDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BetDetailsViewController.swift; sourceTree = "<group>"; };
+		2EDE0CD51ECA266500C3BD88 /* Bet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bet.swift; sourceTree = "<group>"; };
+		2EDE0CD71ECA2B9C00C3BD88 /* SampleData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
+		2EDE0CD91ECA2DCE00C3BD88 /* BetsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BetsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +113,11 @@
 				2EB27A911EA807290074C545 /* Assets.xcassets */,
 				2EB27A931EA807290074C545 /* LaunchScreen.storyboard */,
 				2EB27A961EA807290074C545 /* Info.plist */,
+				2EDE0CCF1EC97D6B00C3BD88 /* ActivityTableViewCell.swift */,
+				2EDE0CD31ECA249F00C3BD88 /* BetDetailsViewController.swift */,
+				2EDE0CD91ECA2DCE00C3BD88 /* BetsViewController.swift */,
+				2EDE0CD51ECA266500C3BD88 /* Bet.swift */,
+				2EDE0CD71ECA2B9C00C3BD88 /* SampleData.swift */,
 			);
 			path = Betcha2;
 			sourceTree = "<group>";
@@ -260,7 +275,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				2EB27A8D1EA807290074C545 /* ViewController.swift in Sources */,
+				2EDE0CD81ECA2B9C00C3BD88 /* SampleData.swift in Sources */,
+				2EDE0CDA1ECA2DCE00C3BD88 /* BetsViewController.swift in Sources */,
+				2EDE0CD61ECA266500C3BD88 /* Bet.swift in Sources */,
 				2EB27A8B1EA807290074C545 /* AppDelegate.swift in Sources */,
+				2EDE0CD01EC97D6B00C3BD88 /* ActivityTableViewCell.swift in Sources */,
+				2EDE0CD41ECA249F00C3BD88 /* BetDetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,6 +527,7 @@
 				2EB27AB11EA8072A0074C545 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2EB27AB21EA8072A0074C545 /* Build configuration list for PBXNativeTarget "Betcha2Tests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +536,7 @@
 				2EB27AB41EA8072A0074C545 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2EB27AB51EA8072A0074C545 /* Build configuration list for PBXNativeTarget "Betcha2UITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +545,7 @@
 				2EB27AB71EA8072A0074C545 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
